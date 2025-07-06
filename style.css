@@ -1,23 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* body{
     background-color: black;
     color: white;
  } */
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'roboto',sans-serif;
 }
 
 .left {
     width: 25vw;
+    padding: 10px;
 }
 
 .right {
     width: 75vw
 }
 
-.home ul li{
-       width: 14px;
-       list-style: none;
-       display: flex;
-       gap: 15px;
+/* .home {} */
+
+.home ul li {
+    width: 14px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-top: 14px;
+    font-weight: bold;
+}
+
+.heading{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    padding-top: 14px;
+    padding: 23px 14px;;
+    font-weight: bold;
+    align-items: center;
+    font-size: 13px;
+}
+
+.heading img{
+    width: 30px;
+}
+
+.library{
+    min-height: 50vh;
+}
+.footer{
+    display: flex;
+    font-size: 10px;
+    gap: 13px;
+
 }
